@@ -536,6 +536,7 @@ handler({ target: { value: "" } });
 
 text_box.addEventListener("keyup", handler);
 
+
 document.getElementById('btn_search').onclick = function() {
 window.open('http://google.com/search?q='+String(text_box.value));
 };

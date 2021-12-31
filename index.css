@@ -77,13 +77,18 @@ ul li :hover,
 ul li:focus {
   color: red;
 }
-#btn_search {
+.button {
   height: 50px;
   width: 140px;
-  background: hsl(233, 14%, 35%);
-  border-radius: 25px;
+  background: #7c00db;
+  border-radius: 24px;
   border: none;
   outline: none;
   cursor: pointer;
   color: hsl(234, 39%, 85%);
+}
+
+.button:hover {
+  background-color: #8a2be2;
+  color: aliceblue;
 }
