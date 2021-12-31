@@ -512,6 +512,7 @@ for (const item of items)
     add(item, 0, root);
 
 const text_box = document.getElementById("text-box");
+
 const list = document.getElementById("list");
 
 function handler(e) {
@@ -534,3 +535,7 @@ handler({ target: { value: "" } });
 
 
 text_box.addEventListener("keyup", handler);
+
+document.getElementById('btn_search').onclick = function() {
+window.open('http://google.com/search?q='+String(text_box.value));
+};

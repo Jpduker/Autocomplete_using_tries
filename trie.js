@@ -28,3 +28,4 @@ function search(str, i, root) {
     return search(str, i + 1, root.map[str[i]]);
 
 }
+
